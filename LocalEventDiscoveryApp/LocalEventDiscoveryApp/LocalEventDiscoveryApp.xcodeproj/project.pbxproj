@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1A55432CE804CF00607446 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55422CE804CF00607446 /* FirebaseAnalytics */; };
+		0B1A55452CE804CF00607446 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55442CE804CF00607446 /* FirebaseAuth */; };
+		0B1A55472CE804CF00607446 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55462CE804CF00607446 /* FirebaseCore */; };
+		0B1A55492CE804CF00607446 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55482CE804CF00607446 /* FirebaseFirestore */; };
+		0B1A554B2CE804CF00607446 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A554A2CE804CF00607446 /* FirebaseStorage */; };
+		0B1A55542CE807A400607446 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55532CE807A400607446 /* GoogleSignIn */; };
+		0B1A55562CE807A400607446 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1A55552CE807A400607446 /* GoogleSignInSwift */; };
+		0B4A1A282CFE037E00B10348 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 0B4A1A272CFE037E00B10348 /* Cosmos */; };
+		0B4D1F992D0A50EB00DDB747 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0B4D1F982D0A50EB00DDB747 /* FirebaseMessaging */; };
+		0B589B452D272E6C00B76643 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0B589B442D272E6C00B76643 /* Alamofire */; };
+		0BAE5A1D2D2609C3006FCC92 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 0BAE5A1C2D2609C3006FCC92 /* FirebaseFunctions */; };
+		0BAE5A1F2D2609C3006FCC92 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0BAE5A1E2D2609C3006FCC92 /* FirebaseFunctionsCombine-Community */; };
+		0BBA06362D08BE8F006BEA48 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 0BBA06352D08BE8F006BEA48 /* GoogleMaps */; };
+		0BBA06392D08C09F006BEA48 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 0BBA06382D08C09F006BEA48 /* GooglePlaces */; };
+		0BBA063B2D08C09F006BEA48 /* GooglePlacesSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0BBA063A2D08C09F006BEA48 /* GooglePlacesSwift */; };
+		0BEC389F2CEB839300F68854 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEC389E2CEB839300F68854 /* SDWebImage */; };
+		0BEC38A12CEB839300F68854 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BEC38A02CEB839300F68854 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B589B492D272EEC00B76643 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BD048912CFD11CE009FB2AD /* LocalEventDiscoveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalEventDiscoveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0B1A55392CE803D100607446 /* Exceptions for "LocalEventDiscoveryApp" folder in "LocalEventDiscoveryApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0B1A55262CE803CF00607446 /* LocalEventDiscoveryApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0B1A55292CE803CF00607446 /* LocalEventDiscoveryApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0B1A55392CE803D100607446 /* Exceptions for "LocalEventDiscoveryApp" folder in "LocalEventDiscoveryApp" target */,
+			);
+			path = LocalEventDiscoveryApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B1A55242CE803CF00607446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4A1A282CFE037E00B10348 /* Cosmos in Frameworks */,
+				0B1A55432CE804CF00607446 /* FirebaseAnalytics in Frameworks */,
+				0B4D1F992D0A50EB00DDB747 /* FirebaseMessaging in Frameworks */,
+				0BEC38A12CEB839300F68854 /* SDWebImageMapKit in Frameworks */,
+				0B1A55492CE804CF00607446 /* FirebaseFirestore in Frameworks */,
+				0BEC389F2CEB839300F68854 /* SDWebImage in Frameworks */,
+				0BBA06362D08BE8F006BEA48 /* GoogleMaps in Frameworks */,
+				0BAE5A1F2D2609C3006FCC92 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				0B1A55562CE807A400607446 /* GoogleSignInSwift in Frameworks */,
+				0B1A55472CE804CF00607446 /* FirebaseCore in Frameworks */,
+				0B1A554B2CE804CF00607446 /* FirebaseStorage in Frameworks */,
+				0BBA063B2D08C09F006BEA48 /* GooglePlacesSwift in Frameworks */,
+				0B589B452D272E6C00B76643 /* Alamofire in Frameworks */,
+				0BBA06392D08C09F006BEA48 /* GooglePlaces in Frameworks */,
+				0BAE5A1D2D2609C3006FCC92 /* FirebaseFunctions in Frameworks */,
+				0B1A55452CE804CF00607446 /* FirebaseAuth in Frameworks */,
+				0B1A55542CE807A400607446 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1A551E2CE803CF00607446 = {
+			isa = PBXGroup;
+			children = (
+				0B1A55292CE803CF00607446 /* LocalEventDiscoveryApp */,
+				0BD048912CFD11CE009FB2AD /* LocalEventDiscoveryApp.app */,
+				0BAE5A1B2D2609C3006FCC92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BAE5A1B2D2609C3006FCC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B1A55262CE803CF00607446 /* LocalEventDiscoveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1A553A2CE803D100607446 /* Build configuration list for PBXNativeTarget "LocalEventDiscoveryApp" */;
+			buildPhases = (
+				0B1A55232CE803CF00607446 /* Sources */,
+				0B1A55242CE803CF00607446 /* Frameworks */,
+				0B1A55252CE803CF00607446 /* Resources */,
+				0B589B492D272EEC00B76643 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B1A55292CE803CF00607446 /* LocalEventDiscoveryApp */,
+			);
+			name = LocalEventDiscoveryApp;
+			packageProductDependencies = (
+				0B1A55422CE804CF00607446 /* FirebaseAnalytics */,
+				0B1A55442CE804CF00607446 /* FirebaseAuth */,
+				0B1A55462CE804CF00607446 /* FirebaseCore */,
+				0B1A55482CE804CF00607446 /* FirebaseFirestore */,
+				0B1A554A2CE804CF00607446 /* FirebaseStorage */,
+				0B1A55532CE807A400607446 /* GoogleSignIn */,
+				0B1A55552CE807A400607446 /* GoogleSignInSwift */,
+				0BEC389E2CEB839300F68854 /* SDWebImage */,
+				0BEC38A02CEB839300F68854 /* SDWebImageMapKit */,
+				0B4A1A272CFE037E00B10348 /* Cosmos */,
+				0BBA06352D08BE8F006BEA48 /* GoogleMaps */,
+				0BBA06382D08C09F006BEA48 /* GooglePlaces */,
+				0BBA063A2D08C09F006BEA48 /* GooglePlacesSwift */,
+				0B4D1F982D0A50EB00DDB747 /* FirebaseMessaging */,
+				0BAE5A1C2D2609C3006FCC92 /* FirebaseFunctions */,
+				0BAE5A1E2D2609C3006FCC92 /* FirebaseFunctionsCombine-Community */,
+				0B589B442D272E6C00B76643 /* Alamofire */,
+			);
+			productName = LocalEventDiscoveryApp;
+			productReference = 0BD048912CFD11CE009FB2AD /* LocalEventDiscoveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B1A551F2CE803CF00607446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0B1A55262CE803CF00607446 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 0B1A55222CE803CF00607446 /* Build configuration list for PBXProject "LocalEventDiscoveryApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B1A551E2CE803CF00607446;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0B1A55522CE807A400607446 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				0BEC389D2CEB839300F68854 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				0B4A1A262CFE037E00B10348 /* XCRemoteSwiftPackageReference "Cosmos" */,
+				0BBA06342D08BE8F006BEA48 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				0BBA06372D08C09F006BEA48 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				0B589B432D272E6C00B76643 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0B1A551E2CE803CF00607446;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B1A55262CE803CF00607446 /* LocalEventDiscoveryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B1A55252CE803CF00607446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1A55232CE803CF00607446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B1A553B2CE803D100607446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBAQ56Y3R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalEventDiscoveryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocalEventDiscoveryApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "We need access to your calendar to add events.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumunuza her zaman erişim gerekiyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumunuzu göstermek için kullanıyoruz";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Bu uygulama, etkinliklerinizi hatırlatıcı olarak kaydedebilmek için anımsatıcılarınıza erişim izni gerektirir.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rumeysa.LocalEventDiscoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0B1A553C2CE803D100607446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBAQ56Y3R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalEventDiscoveryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LocalEventDiscoveryApp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "We need access to your calendar to add events.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumunuza her zaman erişim gerekiyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumunuzu göstermek için kullanıyoruz";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Bu uygulama, etkinliklerinizi hatırlatıcı olarak kaydedebilmek için anımsatıcılarınıza erişim izni gerektirir.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rumeysa.LocalEventDiscoveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0B1A553D2CE803D100607446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B1A553E2CE803D100607446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1A55222CE803CF00607446 /* Build configuration list for PBXProject "LocalEventDiscoveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A553D2CE803D100607446 /* Debug */,
+				0B1A553E2CE803D100607446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1A553A2CE803D100607446 /* Build configuration list for PBXNativeTarget "LocalEventDiscoveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1A553B2CE803D100607446 /* Debug */,
+				0B1A553C2CE803D100607446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		0B1A55522CE807A400607446 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		0B4A1A262CFE037E00B10348 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.0.1;
+			};
+		};
+		0B589B432D272E6C00B76643 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		0BBA06342D08BE8F006BEA48 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+		0BBA06372D08C09F006BEA48 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+		0BEC389D2CEB839300F68854 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B1A55422CE804CF00607446 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0B1A55442CE804CF00607446 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0B1A55462CE804CF00607446 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		0B1A55482CE804CF00607446 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0B1A554A2CE804CF00607446 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0B1A55532CE807A400607446 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55522CE807A400607446 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		0B1A55552CE807A400607446 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55522CE807A400607446 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		0B4A1A272CFE037E00B10348 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B4A1A262CFE037E00B10348 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+		0B4D1F982D0A50EB00DDB747 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		0B589B442D272E6C00B76643 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B589B432D272E6C00B76643 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0BAE5A1C2D2609C3006FCC92 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		0BAE5A1E2D2609C3006FCC92 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1A55412CE804CF00607446 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		0BBA06352D08BE8F006BEA48 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BBA06342D08BE8F006BEA48 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		0BBA06382D08C09F006BEA48 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BBA06372D08C09F006BEA48 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		0BBA063A2D08C09F006BEA48 /* GooglePlacesSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BBA06372D08C09F006BEA48 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlacesSwift;
+		};
+		0BEC389E2CEB839300F68854 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEC389D2CEB839300F68854 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		0BEC38A02CEB839300F68854 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BEC389D2CEB839300F68854 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0B1A551F2CE803CF00607446 /* Project object */;
+}
