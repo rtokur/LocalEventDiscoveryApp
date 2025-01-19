@@ -323,7 +323,7 @@ class DetailsVC: UIViewController {
     
     private func configureCosmosView() {
         cosmosView.settings.fillMode = .precise // Yıldızların doluluk oranı
-        cosmosView.settings.starSize = 30  // Yıldızların boyutu
+        cosmosView.settings.starSize = 20  // Yıldızların boyutu
         cosmosView.settings.starMargin = 10
         cosmosView.settings.filledColor = UIColor(hex: "#cc549c")
         cosmosView.settings.filledBorderColor = UIColor(hex: "#cc549c")
@@ -498,7 +498,6 @@ class DetailsVC: UIViewController {
         view.endEditing(true)
     }
 
-    // MARK: - Event Ratings
     // MARK: - Event Ratings
     func saveRating(eventID: String, userID: String, rating: Double) {
         let db = Firestore.firestore()

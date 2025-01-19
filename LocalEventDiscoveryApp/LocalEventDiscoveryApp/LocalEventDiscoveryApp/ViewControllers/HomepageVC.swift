@@ -162,9 +162,9 @@ class HomepageVC: UIViewController, UISearchBarDelegate,CLLocationManagerDelegat
    //MARK: - Geçmiş Etkinlikleri Silme
     func deleteExpiredEventsFromFirestore() {
         let db = Firestore.firestore()
-        let now = Date() // Mevcut tarih ve saat
+        let now = Date()
+        let dispatchGroup = DispatchGroup()
 
-        // "events" koleksiyonundaki tüm belgeleri al
         db.collection("Events").getDocuments { (snapshot, error) in
             if let error = error {
                 print("Etkinlikleri alırken hata oluştu: \(error)")
@@ -179,37 +179,30 @@ class HomepageVC: UIViewController, UISearchBarDelegate,CLLocationManagerDelegat
                 if let eventDateString = data["date"] as? String {
                     let dateFormatter = ISO8601DateFormatter()
 
-                    if let eventDate = dateFormatter.date(from: eventDateString) {
-                        // Etkinlik tarihi şimdiki zamandan önceyse silme işlemini başlat
-                        if eventDate < now {
-                            // Favorilerden ve katılım bilgilerinden kaldır
-                            self.removeEventFromFavorites(eventID: document.documentID)
-                            self.removeEventFromParticipations(eventID: document.documentID)
-                                            
-                            // Etkinliği Firestore'dan sil
-                            db.collection("Events").document(document.documentID).delete { error in
-                                if let error = error {
-                                    print("Etkinlik silinirken hata oluştu: \(error)")
-                                } else {
-                                    print("Geçmiş etkinlik silindi: \(document.documentID)")
-                                                    
-                                    // Tabloyu güncelle
-                                    DispatchQueue.main.async {
-                                        self.tableView.reloadData()
-                                    }
-                                }
-                            }
-                        }
-                    } else {
-                        print("Geçersiz tarih formatı: \(eventDateString)")
-                    }
+                    if let eventDate = dateFormatter.date(from: eventDateString), eventDate < now {
+                        dispatchGroup.enter() // İşleme başlıyoruz
+                        self.removeEventFromFavorites(eventID: document.documentID)
+                        self.removeEventFromParticipations(eventID: document.documentID)
 
-                } else {
-                    print("Tarih bilgisi eksik: \(document.documentID)")
+                        db.collection("Events").document(document.documentID).delete { error in
+                            if let error = error {
+                                print("Etkinlik silinirken hata oluştu: \(error)")
+                            } else {
+                                print("Geçmiş etkinlik silindi: \(document.documentID)")
+                            }
+                            dispatchGroup.leave() // İşlem tamamlandı
+                        }
+                    }
                 }
+            }
+
+            dispatchGroup.notify(queue: .main) {
+                // Tüm işlemler tamamlandığında tabloyu güncelle
+                self.tableView.reloadData()
             }
         }
     }
+
     //MARK: - Geçmiş Etkinlikler İçin Katılımları Silme
     func removeEventFromParticipations(eventID: String) {
         let db = Firestore.firestore()
